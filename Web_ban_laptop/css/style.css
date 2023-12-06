@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wraper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.header{
+    background-image: url("../images/OIP.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 180px;
+    border: 1px solid #3366ff;
+    height: 180px;
+    width: 100%;
+}
+.menu{
+    border: 1px solid #66ffcc;
+    height: 50px;
+    width: 100%;
+    background: #00ade6;
+}
+ul.list_menu {
+    padding: 0;
+    margin: 0 auto;
+    width: 60%;
+    border: 1px solid #000;
+    list-style: none;
+    line-height: 20px;
+
+}
+ul.list_menu li {
+    float: left;
+    padding: 5px;
+    margin: 7px;
+}
+ul.list_menu li:hover {
+    background: burlywood;
+}
+ul.list_menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: darkred;
+}
+
+#main{
+    border: 1px solid #40ff00;
+    height: 400px;
+    width: 100%;
+    
+}
+.sidebar{
+    border: 1px solid #e1ff00af;
+    height: 390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+ul.list_sidebar {
+    padding: 0;
+    margin: 0 auto;
+    width: 60%;
+    border: 1px solid #000;
+    list-style: none;
+    line-height: 20px;
+
+}
+ul.list_sidebar li {
+    float: left;
+    padding: 5px;
+    margin: 7px;
+}
+ul.list_sidebar li:hover {
+    background: burlywood;
+}
+ul.list_sidebar li a {
+    text-decoration: none;
+    text-align: center;
+    color: darkred;
+}
+
+
+.main_content{
+    border: 1px solid #0004ffaf;
+    height: 390px;
+    width: 77%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.footer{
+    border: 1px solid #8600b3;
+    height: 150px;
+    width: 100%;
+    background: #40ff00;
+}
